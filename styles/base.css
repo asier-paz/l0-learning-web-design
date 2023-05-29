@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topbar-contact-details {
+    width: 100%;
+    height: 30px;
+    background: #009776;
+}
+
+.topbar-contact-details .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 5px 55px 0 55px;
+}
+
+.topbar-contact-details .content-wrapper .contact-details {
+    display: flex;
+    gap: 20px;
+}
+
+.topbar-contact-details .content-wrapper .contact-details .contact-details-item {
+    display: flex;
+    gap: 5px;
+    font-size: 0.813rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topbar-contact-details .content-wrapper .contact-details .contact-details-item:hover {
+    opacity: 0.7;
+}
+
+.topbar-contact-details .content-wrapper .contact-details .contact-details-item .fa {
+    font-size: 0.875rem;
+}
+
+.topbar-contact-details .content-wrapper .social-media {
+    display: flex;
+    gap: 4px;
+}
+
+.topbar-contact-details .content-wrapper .social-media .social-media-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.topbar-contact-details .content-wrapper .social-media .social-media-item::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    background-color: rgba(173,176,182,0.17);
+    content: "";
+    border-radius: inherit;
+}
+
+.topbar-contact-details .content-wrapper .social-media .social-media-item .fa {
+    font-size: 0.875rem;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+header .content-wrapper .logo {
+    height: 60px;
+}
+
+header .content-wrapper .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header .content-wrapper .right-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header .content-wrapper .right-section .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .content-wrapper .right-section .menu-item {
+    padding: 15px 22px;
+    border-left: 1px solid rgba(17,17,17,0.14);
+}
+
+header .content-wrapper .right-section .menu-item:first-of-type {
+    padding-left: 0;
+    border-left: none;
+}
+
+header .content-wrapper .right-section .menu-item:last-of-type {
+    padding-right: 0;
+}
+
+header .content-wrapper .right-section .menu-item a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(51, 53, 57);
+    padding: 4px 0;
+    transition: color 50ms;
+}
+
+header .content-wrapper .right-section .menu-item a:hover {
+    color: rgb(1, 152, 119);
+}
+
+header .content-wrapper .right-section .menu-item a .menu-underline {
+    width: 0%;
+    height: 2px;
+    background: rgb(1, 152, 119);
+    transition: width 120ms;
+}
+
+header .content-wrapper .right-section .menu-item a:hover .menu-underline {
+    width: 100%;
+}
+
+header .content-wrapper .right-section .mini-widgets {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .content-wrapper .right-section .mini-widgets .call-me-button {
+    padding: 10px 20px;
+    background: #009776;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+header .content-wrapper .right-section .mini-widgets .call-me-button .fa {
+    margin-left: 5px;
+    font-size: 0.75rem;
+}
